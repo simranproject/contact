@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        body{
+            background-image: url(landscape.jpg);
+            align-items: center;
+            justify-items: center;
+            margin-top: 150px;
+
+        }
+        body .con{
+            background: white;
+            height: 400px;
+            width: 800px;
+            border-radius: 20px;
+           
+        }
+        body .con .con3{
+             align-items: center;
+        }
+        body .con .con1{
+            color: red;
+            padding-top: 30px;
+        }
+        body .con .con1,.con2{
+            text-align: center;
+        }
+        body .con .a{
+            margin-top: 50px;
+            text-align: left;
+            height: 300px ;
+            width: 200px;
+            float: left;
+            margin-left: 60px ;
+        }
+         body .con .b{
+            margin-top: 50px;
+            text-align: left;
+           
+            height: 300px ;
+            width: 380px;
+            float: right;
+            margin-right: 60px ;
+
+        }
+         body .con .a h1,h5{
+
+            text-align: left;
+        }
+       .nm {
+        width: 46%;
+        height: 35px;
+         background: rgb(238, 235, 235);
+          padding: 3px;
+       }
+       .em {
+        width: 46%;
+        height: 35px;
+       background: rgb(238, 235, 235);
+        padding: 3px;
+       }
+       .sub{
+        width: 96%;
+        height: 35px;
+         padding: 3px;
+       background: rgb(238, 235, 235);
+       }
+       .tex{
+        width: 96%;
+        height: 60px;
+       background: rgb(238, 235, 235);
+        padding: 3px;
+       }
+       .btn{
+        text-align: center;
+        width: 150px;
+        height: 40px;
+       border-radius: 30px;
+       background-color: orangered;
+       }
+       .btn:hover{
+        background-color: greenyellow;
+       }
+       .a h1{
+        font-size: 25px ;
+       }
+       .a h5{
+        margin-left: 35px;
+       }
+
+
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="con3">
+        <h5 class="con1">Find us</h5>
+        <h1 class="con2">Contact Us</h1>
+        </div>
+        <div class="a">
+            <h1>&#9742;        Call Us</h1>
+            <h5>+123 45 67 89</h5><br>
+            <h1>&#128231;      Email Us</h1>
+            <h5>example@gmail.com</h5><br>
+            <h1>📍            Address</h1>
+            <h5>Address here,208 Trainer Avenue street,lllinois,UK-62617</h5>
+        </div>
+        <div class="b">
+            <form>
+                <input type="text" placeholder="Name " class="nm" required>
+                <input type="email" placeholder="Email" class="em" required><br><br>
+                <input type="text" placeholder="Subject" class="sub" required><br><br>
+                <textarea class="tex">Message</textarea><br><br>
+                <button class="btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
