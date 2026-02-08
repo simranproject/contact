@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Page</title>
     <style>
         *{
             padding: 0%;
@@ -11,20 +11,19 @@
         }
         body{
             background-image: url(landscape.jpg);
+            display: flex;
             align-items: center;
-            justify-items: center;
-            margin-top: 150px;
-
+            justify-content: center;
+            height: 100vh;
         }
         body .con{
             background: white;
             height: 400px;
             width: 800px;
             border-radius: 20px;
-           
         }
         body .con .con3{
-             align-items: center;
+            align-items: center;
         }
         body .con .con1{
             color: red;
@@ -44,56 +43,56 @@
          body .con .b{
             margin-top: 50px;
             text-align: left;
-           
             height: 300px ;
             width: 380px;
             float: right;
             margin-right: 60px ;
-
         }
-         body .con .a h1,h5{
-
+        body .con .a h1,h5{
             text-align: left;
         }
        .nm {
-        width: 46%;
-        height: 35px;
-         background: rgb(238, 235, 235);
-          padding: 3px;
+            width: 46%;
+            height: 35px;
+            background: rgb(238, 235, 235);
+            padding: 3px;
        }
        .em {
-        width: 46%;
-        height: 35px;
-       background: rgb(238, 235, 235);
-        padding: 3px;
+           width: 46%;
+           height: 35px;
+           background: rgb(238, 235, 235);
+           padding: 3px;
        }
        .sub{
-        width: 96%;
-        height: 35px;
-         padding: 3px;
-       background: rgb(238, 235, 235);
+          width: 96%;
+          height: 35px;
+          padding: 3px;
+          background: rgb(238, 235, 235);
        }
-       .tex{
-        width: 96%;
-        height: 60px;
-       background: rgb(238, 235, 235);
-        padding: 3px;
+       .text{
+          width: 96%;
+          height: 60px;
+          background: rgb(238, 235, 235);
+          padding: 3px;
        }
        .btn{
-        text-align: center;
-        width: 150px;
-        height: 40px;
-       border-radius: 30px;
-       background-color: orangered;
+          text-align: center;
+          width: 150px;
+          height: 40px;
+          border-radius: 30px;
+          background-color: orangered;
+          cursor: pointer;
+          color: white;
+          border: none;
        }
        .btn:hover{
-        background-color: greenyellow;
+         background-color: greenyellow;
        }
        .a h1{
-        font-size: 25px ;
+         font-size: 25px ;
        }
        .a h5{
-        margin-left: 35px;
+         margin-left: 35px;
        }
 
 
@@ -107,19 +106,19 @@
         </div>
         <div class="a">
             <h1>&#9742;        Call Us</h1>
-            <h5>+123 45 67 89</h5><br>
+            <h5>+91 xxxxx xxxxx</h5><br>
             <h1>&#128231;      Email Us</h1>
-            <h5>example@gmail.com</h5><br>
+            <h5>Your Email</h5><br>
             <h1>📍            Address</h1>
-            <h5>Address here,208 Trainer Avenue street,lllinois,UK-62617</h5>
+            <h5>India</h5>
         </div>
         <div class="b">
             <form>
                 <input type="text" placeholder="Name " class="nm" required>
                 <input type="email" placeholder="Email" class="em" required><br><br>
                 <input type="text" placeholder="Subject" class="sub" required><br><br>
-                <textarea class="tex">Message</textarea><br><br>
-                <button class="btn">Send Message</button>
+                <textarea class="text">Message</textarea><br><br>
+                <button type="submit" class="btn">Send Message</button>
             </form>
         </div>
     </div>
