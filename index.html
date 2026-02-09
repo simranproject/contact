@@ -15,6 +15,7 @@
             align-items: center;
             justify-content: center;
             height: 100vh;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
         }
         body .con{
             background: white;
@@ -74,7 +75,7 @@
           border: none;
        }
        .btn:hover{
-         background-color: greenyellow;
+         background-color: green;
        }
        .a h1{
          font-size: 25px ;
@@ -83,19 +84,31 @@
          margin-left: 35px;
        }
 @media (max-width: 760px){
-body .con{
-            background: white;
-            height: 400px;
-            width: 800px;
-            border-radius: 20px;
+      body .con{
+            height: 450px;
+            width: px;
         }
 }
 @media (max-width: 480px){
     body .con{
-            background: white;
-            height: 400px;
-            width: 800px;
-            border-radius: 20px;
+            height: 600px;
+            width: 380px;
+        }
+         body .con .a{
+            height: 100px ;
+            width: 70%;
+            margin-top: 20px;
+            font-size: 15px;  
+            text-align: center;
+            justify-items: center;
+        }
+        body .con .a h1{
+            font-size: 22px;
+        }
+         body .con .b{
+            margin-top: 70px;
+            height: 100px ;
+            width: 60%;
         }
 }
 @media (max-width: 360px){
@@ -107,9 +120,11 @@ body .con{
         }
          body .con .a{
             height: 100px ;
-            width: 200px;
+            width: 150px;
             margin-top: 20px;
             font-size: 11px;  
+            margin-left: 20px;
+            
         }
          body .con .b{
             margin-top: 60px;
@@ -168,7 +183,7 @@ body .con{
                 <input type="text" placeholder="Name " class="nm" required><br> <br>
                 <input type="email" placeholder="Email" class="em" required><br><br>
                 <input type="text" placeholder="Subject" class="sub" required><br><br>
-                <textarea class="text">Message</textarea><br>
+                <textarea class="text" placeholder="Message"></textarea><br>
                 <button type="submit" class="btn">Send Message</button>
             </form>
         </div>
